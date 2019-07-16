@@ -1,0 +1,4 @@
+env GOOS=linux GOARCH=386 go build
+docker login
+docker image build -t cajecasu/demodevco .
+docker push cajecasu/demodevco
