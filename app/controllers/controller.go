@@ -23,7 +23,7 @@ func ShowNumeral(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
 		return
 	}*/
 
-	results := map[string]interface{}{"De Romano A Numero-mejorado-Ingress": n}
+	results := map[string]interface{}{"De Romano A Numero-mejorado-Ingress-1": n}
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
 	w.WriteHeader(http.StatusOK)
 
