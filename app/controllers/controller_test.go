@@ -55,7 +55,7 @@ func TestGetNumeral(t *testing.T) {
 		t.Error("Expected response code to be 200")
 	}
 
-	expected := `{"De Romano A Numero":40}`
+	expected := `{"De Romano A Numero-mejorado":40}`
 	body := strings.TrimSpace(rr1.Body.String())
 
 	if body != expected {
