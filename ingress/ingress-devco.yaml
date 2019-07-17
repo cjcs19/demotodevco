@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: devco-ingress
+  annotations:  
+    nginx.ingress.kubernetes.io/infinity: cookie
+spec:
+  rules:
+  - host: demodevco.test
+    http:
+      paths:
+      - path: "/"
+        backend:
+          serviceName: backend
+          servicePort: 80
