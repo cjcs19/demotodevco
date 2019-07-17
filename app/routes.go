@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/demotodevco/app/controllers"
+	"github.com/cjcs19/demotodevco/app/controllers"
 	"github.com/julienschmidt/httprouter"
 )
 

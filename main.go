@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/demotodevco/app"
+	"github.com/cjcs19/demotodevco/app"
 	"github.com/rs/cors"
 )
 
