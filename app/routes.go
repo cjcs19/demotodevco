@@ -1,7 +1,7 @@
 package app
 
 import (
-	"bitbucket.org/demotodevco/app/controllers"
+	"github.com/demotodevco/app/controllers"
 	"github.com/julienschmidt/httprouter"
 )
 
