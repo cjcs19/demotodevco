@@ -16,7 +16,9 @@ func main() {
 
 	port := fmt.Sprintf(":%d", 3001)
 	fmt.Println("\n\nListening on ", port)
-	http.ListenAndServe(port, Cors(r))
+	if err := http.ListenAndServe(port, Cors(r)); err != nil {
+		return
+	}
 }
 
 //Cors function to Handle request http
