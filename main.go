@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"bitbucket.org/demotodevco/app"
+	"github.com/demotodevco/app"
 	"github.com/rs/cors"
 )
 
